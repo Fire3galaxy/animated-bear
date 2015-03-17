@@ -7,7 +7,7 @@ set copyindent
 set preserveindent
 set confirm
 set showcmd
-set undolevels = 1000
+set undolevels=1000
 syntax enable
 
 set incsearch
