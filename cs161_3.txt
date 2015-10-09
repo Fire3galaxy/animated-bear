@@ -1,0 +1,4 @@
+The MTTF for the processor is 1 / 100 billion hours, or 1 failure every 10 million hours.
+If the mean time to repair is 24 hours, or 2.4 * 10^-8 billion hours, then the mean time between failure is .010000024, or 10,000,024 hours. The module availability is then .01/.010000024 = .9999976. 
+If there are 1000 such processors and the system as a whole fails if one processor fails, then the FIT of the system is 1,000 * 100 = 100,000 failures in 1 billion hours. The MTTF is 1 / 100,000 billion hours, or 1 failure every 10,000 hours.
+If the system fails when 2 processors fail, then the FIT is 200,000 instead. The MTTF is 1 / 200,000 billion hours or 1 failure every 20,000 hours.
