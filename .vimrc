@@ -8,6 +8,9 @@ set preserveindent
 set confirm
 set showcmd
 set undolevels=1000
+set expandtab
+set tabstop=4
+set shiftwidth=4
 syntax enable
 
 set incsearch
