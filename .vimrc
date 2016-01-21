@@ -12,6 +12,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 syntax enable
+highlight Search ctermbg=blue
 
 set incsearch
 set background=light
