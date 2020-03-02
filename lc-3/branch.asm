@@ -1,0 +1,21 @@
+.ORIG x3000
+
+    LD R0, DEC_0
+    BRz JUMP_TO_HERE
+
+    ; WILL THIS CODE RUN?
+    LEA R0, OTHER_VARIABLE
+    PUTS
+    HALT
+
+; OR THIS CODE?
+JUMP_TO_HERE
+    LEA R0, HELP_I_NEED_A_NAME
+    PUTS
+    HALT
+
+DEC_0               .FILL       #0
+OTHER_VARIABLE      .STRINGZ    "Goodbye!\n"
+HELP_I_NEED_A_NAME  .STRINGZ    "Hello world!\n"
+
+.END

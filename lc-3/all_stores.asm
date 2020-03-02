@@ -1,0 +1,25 @@
+.ORIG x3000
+
+; WHAT DOES MY_VAR CONTAIN NOW?
+LD R0, MY_VAR
+ADD R0, R0, #1
+ST R0, MY_VAR
+
+; AND NOW?
+LDI R0, MY_VAR_PTR
+ADD R0, R0, #1
+STI R0, MY_VAR_PTR
+
+; AND NOW!?!?!?!?!?!?
+LD R5, MY_VAR_PTR
+LDR R0, R5, #0
+ADD R0, R0, #1
+STR R0, R5, #0
+
+; Ok, calm down now.
+HALT
+
+MY_VAR_PTR  .FILL   x300C
+MY_VAR      .FILL   #0
+
+.END
