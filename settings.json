@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "editor.scrollBeyondLastLine": false
+}
