@@ -1,8 +1,8 @@
-set term=xterm-256color
+"set term=xterm-256color
 
 set number
 set smartindent
-set ai
+set autoindent
 set copyindent
 set preserveindent
 set confirm
@@ -37,3 +37,6 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+" For commit files
+autocmd FileType text set textwidth=90
