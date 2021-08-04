@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "workbench.editor.wrapTabs": true,
+    "editor.scrollBeyondLastLine": false
+}
